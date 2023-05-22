@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+  
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>Jefry Sabesaje</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="navbar">
+          <div class="user-logo"><img src="front.png"" /></div>
+          <div class="jef">JEFRY CARDONA SABESAJE</div>
+          <nav>
+            <ul>
+              <li class="selectedLink" name="about">About Me</li>
+              <li name="resume">Resume</li>
+              <li name="project">Projects</li>
+              <li name="contact">Contact</li>
+
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      <main>
+        <div class="card active about" data-about>
+          <div class="title">About Me</div>
+          <div class="content">I am an Computer Engineering Student at Pangasinan State University, Urdaneta City Campus.</div>
+          <!-- <div class="scrolling-text"></div>
+            <p>WELCOME TO MY PORTFOLIO.</p> !-->
+          <div class="higif"><img src="hi.gif"" /></div>
+          
+          
+        </div>
+        
+        <div class="card resume" data-resume>
+          <div class="title">Resume Page</div>
+
+          <div class="content">You can Check and Download my Resume</div>
+        
+        </div>
+        <div class="card contact" data-contact>
+          <div class="title">Contact Me</div>
+          
+          <div class="content"></div>
+          <div class="Address">Address: Brgy.Pilar, Bolinao, Pangasinan, Philippines</div>
+          <div class="cp">Cellphone No. (+63)9384218352</div>
+          <div class="wrapper">
+            <ul>
+              <li class="facebook"><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+              <li class="twitter"><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+              <li class="instagram"><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+              <li class="google"><a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a></li>
+              <li class="whatsapp"><a href="#"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          
+        </div>
+        <div class="card project" data-project>
+          <div class="title">Project Page</div>
+          <div class="content">Chech out my Projects</div>
+          <div class="p1">DIY Microcontroller</div>
+          <div class="project1"><img src="project1.jpg"></div>
+        <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores eligendi dolorem voluptatibus accusamus ducimus excepturi similique quo ea exercitationem, voluptates impedit hic placeat facere officia. Quibusdam quia quae magni.</div>
+        </div>
+      </main>
+    </div>
+    <script>
+      const showMessage = () => {
+        alert("Hello JavaScript");
+      };
+    </script>
+  </body>
+</html>
